@@ -1,12 +1,12 @@
 /* Banner with background */
-div#topbanner {
+div#topsheet {
     background: url(images/preview16.jpg);
     background-size: cover;
     background-position: center;
 }
 
 /* text that shows over the banner */
-div#topbanner h1 {
+div#topsheet h1 {
     text-align: center;
     padding: 265px 0px 75px;
     margin: 0px;
@@ -22,7 +22,7 @@ body {
     background: #aad4d0;
 }
 
-div#main-content,
+div#top-content,
 .facts,
 #contact {
     padding: 10px;
@@ -34,7 +34,7 @@ main {
     margin: auto;
 }
 
-/* navigation list  */
+/* main  */
 div#navigation ul {
     list-style: none;
     display: inline-flex;
@@ -58,20 +58,20 @@ div#navigation ul li:nth-child(2) {
     border-bottom: 0px;
 }
 
-/* layout for main content */
+/* layout for top content */
 .flex {
     display: flex;
 }
 
-div#main-content img {
+div#top-content img {
     width: 100%;
 }
 
-.col-2 {
+.dil-2 {
     width: 20%;
 }
 
-.col-10 {
+.dil-10 {
     width: 80%;
 }
 
@@ -80,7 +80,7 @@ h3 {
     margin: 11px 0px;
 }
 
-div#main-content p {
+div#top-content p {
     padding: 0px 18px;
     margin: 0px;
     font-size: 18px;
